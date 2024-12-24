@@ -1,0 +1,143 @@
+﻿body {
+    text-align: right; 
+    direction: rtl; 
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+.navbar-brand, .nav-link {
+    text-align: right;
+}
+
+.navbar-brand {
+    color: #3C0D3C;
+    font-weight: bold;
+}
+
+
+
+#header {
+    background: url("../images/imgGirls.png") no-repeat center 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px
+}
+
+
+#header h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    margin: 15px 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.input-group {
+    text-align: left; 
+    direction: ltr; 
+}
+
+.input-group .form-control {
+    direction: rtl;
+}
+
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: #292929;
+    border-color: #292929;
+}
+
+.btn-primary:active {
+    background-color: #AC75D5 !important; 
+    border-color: #AC75D5 !important;
+}
+
+
+.navbar {
+    background-color: #AC75D5;
+    border-color: #AC75D5;
+}
+
+
+.btn-info {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #292929;
+    border-color: #292929;
+    color: white;
+}
+
+.btn-info:active {
+    background-color: #AC75D5 !important; 
+    border-color: #AC75D5 !important;
+    color: white !important;
+}
+
+
+.btn-secondary {
+    background-color: #AC75D5;
+    border-color: #AC75D5;
+}
+
+.btn-secondary:hover {
+    background-color: #292929;
+    border-color: #292929;
+}
+
+.btn-secondary:active {
+    background-color: black !important;
+    border-color: black !important;
+    color: white;
+}
+
+
+
+@media (min-width: 768px) {
+    #course-list .card {
+        margin: 10px;
+    }
+
+    #header {
+        background-position: center 40%;
+    }
+    #header h1 {
+       
+        font-size: 4em;
+        
+
+    }
+}
+
+
+.modal-body img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+
